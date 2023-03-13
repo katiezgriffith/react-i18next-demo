@@ -1,10 +1,14 @@
 import { Link } from 'react-router-dom';
+import { Trans, withTranslation } from 'react-i18next';
 
 const Page2 = () => (
   <div className='body'>
-    <p>This is <strong>page 2</strong></p>
-    <p>Go to <Link to='/'>the home page</Link></p>
+  <p><Trans>this-is-page2</Trans></p>
+  <p><Trans i18nKey='go-to-home'>
+      <Link to='/'></Link>
+    </Trans></p>
+  
   </div>
 );
 
-export default Page2;
+export default withTranslation() (Page2);
