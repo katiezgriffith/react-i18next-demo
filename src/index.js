@@ -8,8 +8,10 @@ import App from './App';
 import './index.css';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <App />
+  <BrowserRouter> 
+  <React.Suspense fallback="Loading...">
+  <App />
+  </React.Suspense>
   </BrowserRouter>,
   document.getElementById('root')
 );

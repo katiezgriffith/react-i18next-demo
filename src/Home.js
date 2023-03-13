@@ -30,7 +30,7 @@ class Home extends Component {
 
     return (
       <div className='body'>
-        <p>{t('welcome', { username: username })}</p>
+        <p>{t('Welcome', { username: username })}</p>
 
         <div>
           <label>{t('change-username')}</label>

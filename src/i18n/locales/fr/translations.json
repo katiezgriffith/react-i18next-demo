@@ -5,6 +5,7 @@
     "change-username": "Changer de nom d'utilisateur:",
     "submit": "Soumettre",
     "this-is-page2": "C'est le <strong>page 2</strong>",
-    "go-to-home": "Aller a la <0>page maison</0>"
+    "go-to-home": "Aller a la <0>page maison</0>",
+    "go-to-page2": "Aller a la <0>aquí</0> pour aller à la página 2, {{username}}"
 }
   
